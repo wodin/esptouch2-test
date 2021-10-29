@@ -4464,6 +4464,11 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-esptouch2@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-native-esptouch2/-/react-native-esptouch2-1.1.3.tgz#6253c7f3e265e84dc13a70339c255d3238538a0b"
+  integrity sha512-PUwesWc3mRnlXE+YEGlQI3QANyVkfB11zl+OcYYXcRzYFmvTftGZtNQyLQFXkiZBQ2w6T+5V+5wsVCcVUSRB4w==
+
 react-native-web@0.17.1:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.17.1.tgz#90d473c89dd99b88bc9830b2a9fcdd2fc5f04902"
