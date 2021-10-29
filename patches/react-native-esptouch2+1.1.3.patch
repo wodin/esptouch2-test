@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java b/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
+index 1cd0898..46e5782 100644
+--- a/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
++++ b/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
+@@ -13,9 +13,9 @@ import android.net.wifi.WifiInfo;
+ import android.net.wifi.WifiManager;
+ import android.os.AsyncTask;
+ import android.os.Build;
+-import android.support.annotation.NonNull;
+-import android.support.v4.app.ActivityCompat;
+-import android.support.v4.content.ContextCompat;
++import androidx.annotation.NonNull;
++import androidx.core.app.ActivityCompat;
++import androidx.core.content.ContextCompat;
+ import android.util.Log;
+ import android.widget.Toast;
+ 
