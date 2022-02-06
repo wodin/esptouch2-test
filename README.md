@@ -30,4 +30,4 @@ npm install react-native-esptouch2
 For a development workflow similar to Expo Go, install
 [`expo-dev-client`](https://docs.expo.dev/clients/introduction/).
 
-Then buils with [EAS Build](https://docs.expo.dev/build/introduction/).
+Then build with [EAS Build](https://docs.expo.dev/build/introduction/).
