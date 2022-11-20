@@ -1,5 +1,19 @@
+diff --git a/node_modules/react-native-esptouch2/android/build.gradle b/node_modules/react-native-esptouch2/android/build.gradle
+index 1cb664d..aefd4d9 100644
+--- a/node_modules/react-native-esptouch2/android/build.gradle
++++ b/node_modules/react-native-esptouch2/android/build.gradle
+@@ -31,7 +31,7 @@ repositories {
+ }
+ 
+ dependencies {
+-    compile 'com.facebook.react:react-native:+'
+-    compile files('src/main/libs/esptouch.jar')
++    implementation 'com.facebook.react:react-native:+'
++    implementation files('src/main/libs/esptouch.jar')
+ }
+   
 diff --git a/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java b/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
-index 1cd0898..46e5782 100644
+index 1cd0898..0fb4ea6 100644
 --- a/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
 +++ b/node_modules/react-native-esptouch2/android/src/main/java/com/rickl/rn/esptouch/RNEsptouchModule.java
 @@ -13,9 +13,9 @@ import android.net.wifi.WifiInfo;
